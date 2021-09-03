@@ -1,0 +1,161 @@
+@media screen and (max-width: 1100px) {
+  nav .navElements ul {
+    padding-right: 10em;
+  }
+}
+@media screen and (max-width: 900px) {
+  nav .navElements ul {
+    padding-right: 4em;
+    
+  }
+  nav .searchIcon img {
+	width: 20px;
+}
+
+nav .navElements input {
+	height: 21px;
+}
+.social {
+    width: 21%;
+}
+}
+
+
+
+
+
+@media screen and (max-width: 830px) {
+  nav .navElements ul {
+    padding-right: 2em;
+  }
+  nav .navElements input {
+    width: 109px;
+  }
+  nav .navElements ul li a {
+    font-size: 2vw;
+}
+nav .navElements input {
+	height: 13px;
+}
+
+}
+
+@media screen and (max-width: 650px) {
+  .wraper{
+    margin-top: 50px;
+  }  
+  
+  footer .footerLinks {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        text-align: center;
+    }
+    footer .footerLinks ul .listHeading {
+      background: white;
+      color: black;
+  }
+  .social{
+    width: 80%;
+    margin: auto;
+  }
+  .buttondiv a {
+    font-size: 3vw;
+  }
+  nav .logo img {
+    display: none;
+}
+nav .navElements{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+nav .navElements ul li a {
+  font-size: 3vw;
+}
+nav{
+  padding: 0px 7px;
+  position:initial;
+}
+.content{
+  width: 60%;
+}
+aside{
+  width: 38%;
+  position: absolute;
+  left: 5%;
+  display: none;
+}
+
+nav .navElements ul {
+	display: flex;
+	padding-right: 0em;
+	flex-direction: row;
+	position: absolute;
+	background: black;
+	top: 121px;
+	width: 90%;
+	font-size: 2rem;
+	padding-left: 0;
+	z-index: 4;
+	justify-content: space-evenly;
+	left: 5%;
+}
+
+.content{
+  width: 100%;
+}
+aside ul li {
+	list-style: none;
+	padding-left: 1em;
+	/* background-color: orange; */
+	margin: 1em 0px;
+}
+aside ul li a {
+	text-decoration: none;
+	color: black;
+	font-size: 1rem;
+}
+
+.hamburg{
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.hamburg div{
+  width: 100%;
+  height: 4px;
+  background-color: white;
+}
+}
+
+@media screen and (max-width:400px) {
+  .siteName{
+    font-size: 10vw;
+    height: 34px;
+    line-height: 34px;
+  }
+  nav{
+    margin: 0px 0 3px;
+  }
+  nav .navElements ul{
+    top: 88px;
+  }
+  nav .navElements ul li a {
+    font-size: 5vw;
+  }
+  aside ul li {
+    list-style: none;
+    padding-left: 1em;
+    margin: 0em 0px;
+  }
+  aside .topics {
+    font-size: 1rem;
+    padding: 5px 0px;
+  }
+
+}
